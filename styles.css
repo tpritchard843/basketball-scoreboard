@@ -1,0 +1,72 @@
+body {
+display: flex;
+justify-content: center;
+text-align: center;
+background: #D1D5DB;
+}
+
+@font-face {
+    src: url(CursedTimerUlil-Aznm.ttf);
+    font-family: 'Cursed Timer ULiL';
+}
+
+@font-face {
+    src: url(HighSchoolUsaSerif-6vwM.ttf);
+    font-family: "HighSchoolUSA";
+}
+
+.scoreboard {
+    background: #111827;
+    width: 600px;
+    height: 400px;
+    color: #D1D5DB;
+    border: 5px solid #F59E0B;
+    border-radius: 10px;
+    padding: 20px 50px;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team {
+    font-family: 'HighSchoolUSA';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.score {
+    font-family: 'Cursed Timer Ulil';
+    color:#F59E0B;
+    font-size: 90px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px 10px 0;
+    height: 120px;
+    width: 155px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #111827;
+    border: 2px solid #D1D5DB;
+    border-radius: 3px;
+    padding: 10px;
+    color: #D1D5DB;
+    font-family: 'Cursed Timer Ulil';
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.timer {
+    font-family: 'Cursed Timer Ulil';
+    font-size: 50px;
+    margin-top: 145px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Scoreboard</title>
+</head>
+<body>
+    <div class="scoreboard">
+        <div class="container">
+            <div class="home-box">
+                <h3 class="team">HOME</h3>
+                <p id="score-home" class="score">0</p>
+                <button onclick="deductHome(-1)">-1</button>
+                <button onclick="addHome(1)">+1</button>
+                <button onclick="addHome(2)">+2</button>
+                <button onclick="addHome(3)">+3</button>
+            </div>
+
+           <span class="timer" id="countdown">20:00</span>
+
+            <div class="guest-box">
+                <h3 class="team">GUEST</h3>
+                <p id="score-guest" class="score">0</p>
+                <button onclick="deductGuest(-1)">-1</button>
+                <button onclick="addGuest(1)">+1</button>
+                <button onclick="addGuest(2)">+2</button>
+                <button onclick="addGuest(3)">+3</button>
+            </div>
+        </div>
+
+        <button class="btn-clear"  onclick="clearScores()">Clear Scores</button>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
